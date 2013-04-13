@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4522
+
+The main goal of VERun is to run your program with just one command without leaving vim. You just open the file you want to run and execute :VERun.
+
+Main features included in version 0.9:
+- Runs C/C++, php, python, bash/sh and makefiles with just one command, without needing to cd your dir nor configuring anything
+- Auto detect your C/C++ headers and adds the links to the g++ command (see :h VECppAutoHeaderList)
+- Auto detect your python version
+- Option to execute your program in an external terminal
+- Currently supports only C/C++, php, python, bash/sh and makefiles
+
+To compile/run your program, run:
+	:VERun
+
+For further instructions and configuration check the help file included in the tar ball.
+Please feel free to contact me for eventual bugs, suggestions, complains or anything
